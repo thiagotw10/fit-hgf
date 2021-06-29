@@ -43,7 +43,7 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
 }
 
 svg{
-    position: fixed;
+    position: relative;
     right: 198px;
 }
 
