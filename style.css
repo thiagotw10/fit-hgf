@@ -16,6 +16,12 @@ body{
     background-color: #00b34213;
 }
 
+.container3{
+    background-color: #00b34213;
+    height: 170px;
+    margin-top: 80px;
+}
+
 .container-mae{
     display: flex;
     flex-wrap: wrap;
@@ -55,6 +61,7 @@ input{
 
 .container2{
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 .container-cards{
     display: flex;
@@ -100,6 +107,64 @@ input{
 }
 
 
+.container-mae-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.rede-sociais{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    color: #7bc62d;
+    font-size: 20px;
+}
+
+.bola{
+    border: 2px solid #FFAFBD;
+    margin-left: 10px;
+    border-radius: 700px;
+    width: 50px;
+
+    
+}
+
+.bola svg{
+    margin-left: 26px;
+    margin-bottom: 7px;
+}
+
+
+.bola:hover{
+    background-color: #ffafbcab;
+}
+
+.linha{
+    margin-top: 20px;
+    width: 700px;
+    height: 2px;
+    background-color: #ffafbcab;
+}
+
+.endereco{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.664);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.verifica{
+    margin-top: 20px;
+    color:#FFAFBD ;
+}
 
 
 
@@ -121,5 +186,23 @@ input{
         position: relative;
         right: 5px;
         top: 6px;
+    }
+
+    .linha{
+        width: 100px;
+    }
+
+    .endereco{
+        width: 300px;
+        text-align: center;
+    }
+
+    .container3{
+        height: max-content;
+    }
+
+    .bola svg{
+        margin-left: 12px;
+        margin-bottom: 7px;
     }
 }
