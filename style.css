@@ -18,7 +18,7 @@ body{
 
 .container3{
     background-color: #00b34213;
-    height: 170px;
+    height: max-content;
     margin-top: 80px;
 }
 
