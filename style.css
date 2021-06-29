@@ -22,7 +22,7 @@ body{
     margin-top: 80px;
     position: fixed;
     bottom: 0;
-    width: max-content;
+    width: 100%;
 }
 
 .container-mae{
