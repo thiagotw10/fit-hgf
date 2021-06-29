@@ -20,6 +20,8 @@ body{
     background-color: #00b34213;
     height: max-content;
     margin-top: 80px;
+    position: relative;
+    bottom: 0;
 }
 
 .container-mae{
