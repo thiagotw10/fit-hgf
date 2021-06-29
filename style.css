@@ -28,7 +28,6 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
 }
 
 .busca{
-    padding: 2px;
     padding-right: 10px;
     padding-left: 30px;
     padding-top: 4px;
@@ -36,6 +35,7 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
     margin-right: 20px;
     box-shadow: 1px 1px 2px #333333;
     height: 30px;
+    height: 42px;
 }
 
 .img{
@@ -44,11 +44,12 @@ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, F
 
 svg{
     position: relative;
-    right: 198px;
+    right: 20px;
+    top: 6px;
 }
 
 input{
-    padding: 2px;
+    padding: 5px;
     border: 0;
     outline: 0;
     font-family: 'Courier New', Courier, monospace;
