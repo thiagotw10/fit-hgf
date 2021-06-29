@@ -110,3 +110,21 @@ input{
 
 
 
+@media (max-width: 700px) {
+    .busca{
+        padding-right: 5px;
+        padding-left: 20px;
+        padding-top: 4px;
+        border: 1px solid #7bc62d;
+        margin-right: 20px;
+        box-shadow: 1px 1px 2px #333333;
+        height: 30px;
+        height: 42px;
+    }
+
+    svg{
+        position: relative;
+        right: 10px;
+        top: 6px;
+    }
+}
